@@ -1,4 +1,4 @@
-# Malvin-Session-Generator
+# Marlon-Session-Generator
 - Kindly star my repo
 - Fork and edit as you wish
 - Deploy to your favourite hosting server eg Heroku or Render or self hosting
@@ -8,23 +8,23 @@
 <br/>QR- WEB - PAIR CODE FOR BOT WITH WHISKEYSOCKETS/BAILEYS
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 <p align="center">
-   <a href="https://github.com/kingmalvn">
-    <img src="https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg" width="500">
+   <a href="https://github.com/montanatech ">
+    <img src="https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg" width="600">
      
 </a>
- <p align="center"><img src="https://profile-counter.glitch.me/{kingmalvn}/count.svg" alt="xcelsama:: Visitor's Count" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{kingmalvin}/count.svg" alt="xcelsama:: Visitor's Count" /></p>
 
 
 
-[`ℹ️Contact Owner`](https://wa.me/263714757857)
+[`ℹ️Contact Owner`](https://wa.me/263713347378)
 
 FORK THE REPOSITORY (Repo) 
     <br>
-<a href="https://github.com/kingmalvn/malvin.session"><img title="WEB" src="https://img.shields.io/badge/FORK Malvin-QR?color=green&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/montanatech/MARLON-Xmd"><img title="WEB" src="https://img.shields.io/badge/FORK Marlon-QR?color=green&style=for-the-badge&logo=stackshare"></a>
 
 Now Deploy
     <br>
-<a href='https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/malvin.session' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=heroku&logoColor=white'/>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/montana/marlon. session' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=heroku&logoColor=white'/>
 
 2nd Deploy 
     <br>
@@ -34,5 +34,5 @@ Now Deploy
 [`HERE'S AN EXAMPLE OUTPUT`](https://wasi-session-test-2d5de70f8522.herokuapp.com)
 # `Owner`
 
- <a href="https://github.com/kingmalvn"><img src="https://github.com/kingmalvn.png" width="250" height="250" alt=" Malvin King"/></a>
+ <a href="https://github.com/marlon"><img src="https://github.com/kingmalvn.png" width="250" height="250" alt=" Montana"/></a>
 
