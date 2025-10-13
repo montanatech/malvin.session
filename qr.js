@@ -28,13 +28,13 @@ const {
 } = require("node:fs/promises")
 router.get('/', async (req, res) => {
 	const id = makeid();
-	async function MALVIN_KING_QR_CODE() {
+	async function MARLON_XMD_QR_CODE() {
 		const {
 			state,
 			saveCreds
 		} = await useMultiFileAuthState('./temp/' + id)
 		try {
-			let Qr_Code_By_Malvin_King = Malvin_King({
+			let Qr_Code_By_Marlon_xmd = Marlon_xmd({
 				auth: state,
 				printQRInTerminal: false,
 				logger: pino({
@@ -43,8 +43,8 @@ router.get('/', async (req, res) => {
 				browser: Browsers.macOS("Desktop"),
 			});
 
-			Qr_Code_By_Malvin_King.ev.on('creds.update', saveCreds)
-			Qr_Code_By_Malvin_King.ev.on("connection.update", async (s) => {
+			Qr_Code_By_Marlon_xmd.ev.on('creds.update', saveCreds)
+			Qr_Code_By_Marlon_xmd.ev.on("connection.update", async (s) => {
 				const {
 					connection,
 					lastDisconnect,
@@ -56,36 +56,36 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(800);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Qr_Code_By_Malvin_King.sendMessage(Qr_Code_By_Malvin_King.user.id, { text: '' + b64data });
+				   let session = await Qr_Code_By_Malvin_King.sendMessage(Qr_Code_By_Marlon_xmd.user.id, { text: '' + b64data });
 	
-				   let MALVIN_KING_TEXT = `
+				   let MARLON_XMD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃Montana MD SESSION IS 
+┃MARLON-Xmd SESSION IS 
 ┃SUCCESSFULLY
 ┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❶ || Creator = 𖥘⚡ Montana ⚡𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
+❷ || https://whatsapp.com/channel/0029Vame2WE0bIdvkwepUP2B
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❸ || Owner = https://wa.me/263780166288
+❸ || Owner = https://wa.me/263713347378
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❺ || Bot Repo = https://github.com/montanatech/Montana-MD
+❺ || Bot Repo = https://github.com/montanatech/MARLON-Xmd
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❻ || YouTube = https://www.youtube.com/@Kentonx-tech 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ©2024-2099 Montana_`
-	 await Qr_Code_By_Malvin_King.sendMessage(Qr_Code_By_Malvin_King.user.id,{text:MALVIN_KING_TEXT},{quoted:session})
+	 await Qr_Code_By_Marlon_xmd.sendMessage(Qr_Code_By_Marlon_xmd.user.id,{text:MARLON_XMD_TEXT},{quoted:session})
 
 
 
 					await delay(100);
-					await Qr_Code_By_Malvin_King.ws.close();
+					await Qr_Code_By_Marlon_xmd.ws.close();
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
-					MALVIN_KING_QR_CODE();
+					MARLON_XMD_QR_CODE();
 				}
 			});
 		} catch (err) {
@@ -98,6 +98,6 @@ router.get('/', async (req, res) => {
 			await removeFile("temp/" + id);
 		}
 	}
-	return await MALVIN_KING_QR_CODE()
+	return await MARLON_XMD_QR_CODE()
 });
 module.exports = router
